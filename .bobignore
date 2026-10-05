@@ -1,0 +1,19 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Cache de progresso
+data/cache-progresso/
+dio_explorer/data/cache-progresso/
+
+# Certificados gerados
+docs/certificados-emitidos/
+dio_explorer/docs/certificados-emitidos/
+
+# Arquivos temporários
+*.tmp
+**/*.tmp

@@ -1,0 +1,28 @@
+============================================================
+  DESAFIO DIO — JAVA / SPRING BOOT / JPA / HIBERNATE / MAVEN
+============================================================
+
+Título   : Construa uma API REST de Gerenciamento de Tarefas com Java
+Nível    : Intermediário
+Trilha   : Formação Java Developer
+Aluno    : João da Silva
+E-mail   : joao.silva@dio.me
+XP       : 3.000 pontos
+Prazo    : 7 dias
+Gerado em: 01/10/2026, 15:14:57
+
+TAREFAS:
+  1. Configurar projeto Spring Boot com Maven
+  2. Modelar a entidade Tarefa (id, titulo, descricao, status, dataCriacao)
+  3. Implementar repositório JPA (TarefaRepository)
+  4. Criar service com regras de negócio (TarefaService)
+  5. Expor endpoints REST: GET /tarefas, POST /tarefas, PUT /tarefas/{id}, DELETE /tarefas/{id}
+  6. Adicionar validações com Bean Validation (@NotBlank, @NotNull)
+  7. Escrever testes unitários com JUnit 5 e Mockito (cobertura mínima 70%)
+  8. Documentar a API com Springdoc OpenAPI (Swagger UI)
+
+Descrição: Desafio prático da trilha "Formação Java Developer" para consolidar o aprendizado de Java / Spring Boot / JPA / Hibernate / Maven.
+
+============================================================
+Boa sorte! Complete o desafio e suba no seu GitHub. 🚀
+============================================================

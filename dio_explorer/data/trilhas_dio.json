@@ -1,0 +1,468 @@
+{
+  "trilhas": [
+    {
+      "id": "trilha-001",
+      "nome": "Formação Full Stack Python & Django",
+      "descricao": "Aprenda a construir aplicações web completas com Python no back-end e React no front-end, dominando desde a lógica de programação até deploy em nuvem.",
+      "tecnologia": "Python / Django / React",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 14,
+      "xp_total": 18500,
+      "duracao_estimada_horas": 120,
+      "certificado": true,
+      "vitalicio": true,
+      "promocoes": [
+        {
+          "id": "promo-py-01",
+          "descricao": "Black Friday DIO — 60% off",
+          "desconto_percentual": 60,
+          "validade": "2024-11-30",
+          "codigo_cupom": "BFPY2024"
+        },
+        {
+          "id": "promo-py-02",
+          "descricao": "Semana do Programador — 40% off",
+          "desconto_percentual": 40,
+          "validade": "2024-08-13",
+          "codigo_cupom": "SEMDEV40"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-py-01",
+          "nome": "Python Iniciante",
+          "descricao": "Conquistada ao concluir o módulo de fundamentos de Python.",
+          "xp_requerido": 1000,
+          "icone": "🐍"
+        },
+        {
+          "id": "badge-py-02",
+          "nome": "Django Developer",
+          "descricao": "Conquistada ao finalizar os módulos de back-end com Django e Django REST Framework.",
+          "xp_requerido": 7500,
+          "icone": "🎸"
+        },
+        {
+          "id": "badge-py-03",
+          "nome": "React Front-End Expert",
+          "descricao": "Conquistada ao concluir os módulos de React, hooks e Context API.",
+          "xp_requerido": 13000,
+          "icone": "⚛️"
+        },
+        {
+          "id": "badge-py-04",
+          "nome": "Full Stack Python Master",
+          "descricao": "Badge de conclusão da trilha completa, incluindo deploy na AWS.",
+          "xp_requerido": 18500,
+          "icone": "🏆"
+        }
+      ],
+      "lives_ao_vivo": [
+        {
+          "id": "live-py-01",
+          "titulo": "AMA: Mercado de trabalho para Devs Python em 2024",
+          "data": "2024-09-10T19:00:00-03:00",
+          "duracao_minutos": 90,
+          "instrutor": "Ana Lima",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": true
+        },
+        {
+          "id": "live-py-02",
+          "titulo": "Construindo uma API REST com Django em tempo real",
+          "data": "2024-10-05T14:00:00-03:00",
+          "duracao_minutos": 120,
+          "instrutor": "Carlos Mendes",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": false
+        },
+        {
+          "id": "live-py-03",
+          "titulo": "Deploy de aplicação Django na AWS com Docker",
+          "data": "2024-11-12T19:00:00-03:00",
+          "duracao_minutos": 100,
+          "instrutor": "Fernanda Souza",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": false
+        }
+      ],
+      "modulos": [
+        "Lógica de Programação com Python",
+        "Estruturas de Dados e Algoritmos",
+        "Orientação a Objetos em Python",
+        "Banco de Dados com PostgreSQL",
+        "Django — Fundamentos",
+        "Django REST Framework",
+        "Autenticação e Autorização com JWT",
+        "Testes Automatizados com Pytest",
+        "HTML5, CSS3 e JavaScript Moderno",
+        "React — Fundamentos",
+        "React Hooks e Context API",
+        "Integração Front-end / Back-end",
+        "Docker e Contêineres",
+        "Deploy na AWS (EC2, S3, RDS)"
+      ]
+    },
+    {
+      "id": "trilha-002",
+      "nome": "Formação Machine Learning & IA Generativa",
+      "descricao": "Domine os fundamentos de Machine Learning, Deep Learning e IA Generativa com Python, construindo modelos reais com TensorFlow, PyTorch e a API da OpenAI.",
+      "tecnologia": "Python / TensorFlow / PyTorch / OpenAI API",
+      "nivel": "Avançado",
+      "numero_de_modulos": 18,
+      "xp_total": 26000,
+      "duracao_estimada_horas": 180,
+      "certificado": true,
+      "vitalicio": true,
+      "promocoes": [
+        {
+          "id": "promo-ml-01",
+          "descricao": "Lançamento — 50% off na primeira semana",
+          "desconto_percentual": 50,
+          "validade": "2024-07-07",
+          "codigo_cupom": "LAUNCH50ML"
+        },
+        {
+          "id": "promo-ml-02",
+          "descricao": "Parceria Alura + DIO — 30% off para membros",
+          "desconto_percentual": 30,
+          "validade": "2024-12-31",
+          "codigo_cupom": "PARCEIRAIO30"
+        },
+        {
+          "id": "promo-ml-03",
+          "descricao": "Cyber Monday — 55% off",
+          "desconto_percentual": 55,
+          "validade": "2024-12-02",
+          "codigo_cupom": "CYBERML55"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-ml-01",
+          "nome": "Data Science Explorer",
+          "descricao": "Conquistada ao concluir os módulos de Pandas, NumPy e visualização de dados.",
+          "xp_requerido": 2000,
+          "icone": "📊"
+        },
+        {
+          "id": "badge-ml-02",
+          "nome": "ML Engineer",
+          "descricao": "Conquistada ao treinar e avaliar seu primeiro modelo de classificação.",
+          "xp_requerido": 8000,
+          "icone": "🤖"
+        },
+        {
+          "id": "badge-ml-03",
+          "nome": "Deep Learning Specialist",
+          "descricao": "Conquistada ao concluir os módulos de redes neurais convolucionais e recorrentes.",
+          "xp_requerido": 16000,
+          "icone": "🧠"
+        },
+        {
+          "id": "badge-ml-04",
+          "nome": "Generative AI Pioneer",
+          "descricao": "Conquistada ao concluir os módulos de LLMs, fine-tuning e uso da API da OpenAI.",
+          "xp_requerido": 22000,
+          "icone": "✨"
+        },
+        {
+          "id": "badge-ml-05",
+          "nome": "ML & GenAI Master",
+          "descricao": "Badge de conclusão da trilha completa com projeto final avaliado por especialistas.",
+          "xp_requerido": 26000,
+          "icone": "🏆"
+        }
+      ],
+      "lives_ao_vivo": [
+        {
+          "id": "live-ml-01",
+          "titulo": "Introdução à IA Generativa: o que muda para devs",
+          "data": "2024-08-20T19:00:00-03:00",
+          "duracao_minutos": 90,
+          "instrutor": "Ricardo Torres",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": true
+        },
+        {
+          "id": "live-ml-02",
+          "titulo": "Fine-tuning de LLMs com dados customizados",
+          "data": "2024-09-17T20:00:00-03:00",
+          "duracao_minutos": 120,
+          "instrutor": "Mariana Costa",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": true
+        },
+        {
+          "id": "live-ml-03",
+          "titulo": "Criando um chatbot com RAG e LangChain ao vivo",
+          "data": "2024-10-22T19:30:00-03:00",
+          "duracao_minutos": 150,
+          "instrutor": "Paulo Henrique",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": false
+        },
+        {
+          "id": "live-ml-04",
+          "titulo": "MLOps na prática: do notebook ao cluster Kubernetes",
+          "data": "2024-11-26T19:00:00-03:00",
+          "duracao_minutos": 120,
+          "instrutor": "Tatiane Rocha",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": false
+        }
+      ],
+      "modulos": [
+        "Fundamentos de Estatística e Álgebra Linear",
+        "Python para Ciência de Dados",
+        "Pandas e NumPy na Prática",
+        "Visualização de Dados com Matplotlib e Seaborn",
+        "Machine Learning Supervisionado",
+        "Machine Learning Não Supervisionado",
+        "Engenharia de Features",
+        "Avaliação e Seleção de Modelos",
+        "Redes Neurais — Fundamentos",
+        "Deep Learning com TensorFlow",
+        "Redes Convolucionais (CNNs)",
+        "Redes Recorrentes (RNNs / LSTMs)",
+        "Transfer Learning e Modelos Pré-Treinados",
+        "Processamento de Linguagem Natural (NLP)",
+        "Large Language Models (LLMs)",
+        "Fine-Tuning e PEFT com LoRA",
+        "IA Generativa com API da OpenAI",
+        "MLOps e Deploy de Modelos"
+      ]
+    },
+    {
+      "id": "trilha-003",
+      "nome": "Formação Cloud Native & DevOps com Kubernetes",
+      "descricao": "Torne-se um engenheiro Cloud Native dominando Docker, Kubernetes, CI/CD, Terraform e as principais ferramentas do ecossistema DevOps para entrega contínua em produção.",
+      "tecnologia": "Docker / Kubernetes / Terraform / GitHub Actions / AWS",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 22000,
+      "duracao_estimada_horas": 160,
+      "certificado": true,
+      "vitalicio": true,
+      "promocoes": [
+        {
+          "id": "promo-k8s-01",
+          "descricao": "DevOps Week — 45% off",
+          "desconto_percentual": 45,
+          "validade": "2024-09-20",
+          "codigo_cupom": "DEVOPSWEEK45"
+        },
+        {
+          "id": "promo-k8s-02",
+          "descricao": "Black Friday DIO — 60% off",
+          "desconto_percentual": 60,
+          "validade": "2024-11-30",
+          "codigo_cupom": "BFCLOUD2024"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-k8s-01",
+          "nome": "Container Rookie",
+          "descricao": "Conquistada ao concluir os módulos de Docker e Docker Compose.",
+          "xp_requerido": 2500,
+          "icone": "🐳"
+        },
+        {
+          "id": "badge-k8s-02",
+          "nome": "Kubernetes Operator",
+          "descricao": "Conquistada ao orquestrar aplicações em um cluster Kubernetes local com Kind.",
+          "xp_requerido": 9000,
+          "icone": "☸️"
+        },
+        {
+          "id": "badge-k8s-03",
+          "nome": "Infrastructure as Code Engineer",
+          "descricao": "Conquistada ao provisionar infraestrutura na AWS usando Terraform.",
+          "xp_requerido": 14500,
+          "icone": "🏗️"
+        },
+        {
+          "id": "badge-k8s-04",
+          "nome": "CI/CD Champion",
+          "descricao": "Conquistada ao configurar pipelines completos com GitHub Actions e ArgoCD.",
+          "xp_requerido": 19000,
+          "icone": "🔄"
+        },
+        {
+          "id": "badge-k8s-05",
+          "nome": "Cloud Native Master",
+          "descricao": "Badge de conclusão da trilha com projeto de cluster EKS em produção.",
+          "xp_requerido": 22000,
+          "icone": "🏆"
+        }
+      ],
+      "lives_ao_vivo": [
+        {
+          "id": "live-k8s-01",
+          "titulo": "Docker do zero ao multi-stage build em 90 minutos",
+          "data": "2024-07-30T19:00:00-03:00",
+          "duracao_minutos": 90,
+          "instrutor": "Leandro Pires",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": true
+        },
+        {
+          "id": "live-k8s-02",
+          "titulo": "Kubernetes na prática: deployando sua primeira app",
+          "data": "2024-08-27T19:00:00-03:00",
+          "duracao_minutos": 120,
+          "instrutor": "Jéssica Albuquerque",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": true
+        },
+        {
+          "id": "live-k8s-03",
+          "titulo": "Terraform: provisionando VPC e EKS na AWS ao vivo",
+          "data": "2024-09-24T19:00:00-03:00",
+          "duracao_minutos": 130,
+          "instrutor": "Diego Martins",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": false
+        },
+        {
+          "id": "live-k8s-04",
+          "titulo": "GitOps com ArgoCD: deploy contínuo sem stress",
+          "data": "2024-10-29T19:00:00-03:00",
+          "duracao_minutos": 110,
+          "instrutor": "Bianca Ferreira",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": false
+        },
+        {
+          "id": "live-k8s-05",
+          "titulo": "Observabilidade com Prometheus, Grafana e Loki",
+          "data": "2024-11-19T19:00:00-03:00",
+          "duracao_minutos": 120,
+          "instrutor": "Leandro Pires",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": false
+        }
+      ],
+      "modulos": [
+        "Fundamentos de Linux e Redes",
+        "Introdução ao DevOps e Cultura Ágil",
+        "Docker — Imagens, Containers e Volumes",
+        "Docker Compose para Ambientes Multi-Serviço",
+        "Kubernetes — Arquitetura e Conceitos",
+        "Pods, Deployments e Services",
+        "ConfigMaps, Secrets e Persistent Volumes",
+        "Helm — Gerenciador de Pacotes Kubernetes",
+        "Infraestrutura como Código com Terraform",
+        "AWS EKS — Kubernetes Gerenciado",
+        "CI/CD com GitHub Actions",
+        "GitOps e ArgoCD",
+        "Segurança em Clusters Kubernetes (RBAC, Network Policies)",
+        "Service Mesh com Istio",
+        "Observabilidade: Prometheus, Grafana e Loki",
+        "Projeto Final: Cluster EKS em Produção"
+      ]
+    },
+    {
+      "id": "trilha-004",
+      "nome": "Formação Java Developer",
+      "descricao": "Domine a linguagem Java do zero ao avançado, construindo APIs REST com Spring Boot, gerenciando banco de dados com JPA/Hibernate e aplicando boas práticas com testes automatizados e clean code.",
+      "tecnologia": "Java / Spring Boot / JPA / Hibernate / Maven",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 16000,
+      "duracao_estimada_horas": 110,
+      "certificado": true,
+      "vitalicio": true,
+      "promocoes": [
+        {
+          "id": "promo-java-01",
+          "descricao": "Java Week DIO — 50% off",
+          "desconto_percentual": 50,
+          "validade": "2024-10-15",
+          "codigo_cupom": "JAVAWEEK50"
+        },
+        {
+          "id": "promo-java-02",
+          "descricao": "Black Friday DIO — 60% off",
+          "desconto_percentual": 60,
+          "validade": "2024-11-30",
+          "codigo_cupom": "BFJAVA2024"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-java-01",
+          "nome": "Java Rookie",
+          "descricao": "Conquistada ao concluir os módulos de fundamentos de Java e POO.",
+          "xp_requerido": 2000,
+          "icone": "☕"
+        },
+        {
+          "id": "badge-java-02",
+          "nome": "Spring Boot Developer",
+          "descricao": "Conquistada ao construir sua primeira API REST com Spring Boot.",
+          "xp_requerido": 7000,
+          "icone": "🍃"
+        },
+        {
+          "id": "badge-java-03",
+          "nome": "JPA & Hibernate Expert",
+          "descricao": "Conquistada ao dominar mapeamento objeto-relacional com JPA e Hibernate.",
+          "xp_requerido": 11000,
+          "icone": "🗄️"
+        },
+        {
+          "id": "badge-java-04",
+          "nome": "Java Master",
+          "descricao": "Badge de conclusão da trilha completa com projeto final de API em produção.",
+          "xp_requerido": 16000,
+          "icone": "🏆"
+        }
+      ],
+      "lives_ao_vivo": [
+        {
+          "id": "live-java-01",
+          "titulo": "Java 21: novidades de LTS para devs modernos",
+          "data": "2024-08-15T19:00:00-03:00",
+          "duracao_minutos": 90,
+          "instrutor": "Gleyson Sampaio",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": true
+        },
+        {
+          "id": "live-java-02",
+          "titulo": "Construindo API REST com Spring Boot do zero",
+          "data": "2024-09-12T19:00:00-03:00",
+          "duracao_minutos": 120,
+          "instrutor": "Gleyson Sampaio",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": true
+        },
+        {
+          "id": "live-java-03",
+          "titulo": "Testes unitários com JUnit 5 e Mockito na prática",
+          "data": "2024-10-08T19:00:00-03:00",
+          "duracao_minutos": 100,
+          "instrutor": "Camila Cavalcante",
+          "plataforma": "YouTube DIO",
+          "gravacao_disponivel": false
+        }
+      ],
+      "modulos": [
+        "Fundamentos de Java e Ambiente de Desenvolvimento",
+        "Orientação a Objetos em Java",
+        "Coleções, Generics e Streams",
+        "Tratamento de Exceções e Boas Práticas",
+        "Banco de Dados com JDBC",
+        "JPA e Hibernate — Mapeamento OR",
+        "Spring Boot — Fundamentos",
+        "Criando APIs REST com Spring Boot",
+        "Segurança com Spring Security e JWT",
+        "Testes Automatizados com JUnit 5 e Mockito",
+        "Docker para Aplicações Java",
+        "Deploy na Nuvem com Railway e Render"
+      ]
+    }
+  ]
+}

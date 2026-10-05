@@ -1,0 +1,157 @@
+========================================================
+  RELATÓRIO DE TESTES UNITÁRIOS — DIO EXPLORER
+  Projeto: dio-explorer v1.0.0
+  Data   : 2026-01-10
+========================================================
+
+OBJETIVO
+--------
+Validar os comandos /trilha, /desafio e /certificado com
+cobertura mínima de 70% de aprovação nos testes unitários.
+
+--------------------------------------------------------
+SUÍTES DE TESTE EXECUTADAS
+--------------------------------------------------------
+
+PASS  tests/unit/trilha.test.ts
+  /trilha — carregarTrilhas()
+    ✓ deve carregar trilhas do arquivo JSON de fixture
+    ✓ deve conter a trilha de Java no fixture
+    ✓ deve lançar erro se o arquivo não existir
+
+  /trilha — buscarTrilha()
+    ✓ deve encontrar a trilha de Java pelo termo "java"
+    ✓ deve encontrar a trilha pelo termo "Spring Boot"
+    ✓ deve retornar zero resultados para termo que não existe
+    ✓ deve retornar o termo original no resultado
+    ✓ deve lançar erro se o termo for vazio
+    ✓ deve lançar erro se o termo for apenas espaços
+    ✓ deve fazer busca case-insensitive
+
+  /trilha — formatarTrilha()
+    ✓ deve incluir o nome da trilha na saída formatada
+    ✓ deve incluir a tecnologia na saída formatada
+    ✓ deve incluir o número de módulos na saída
+    ✓ deve listar os módulos numerados
+    ✓ deve indicar que tem certificado
+
+PASS  tests/unit/desafio.test.ts
+  /desafio — gerarDesafio()
+    ✓ deve gerar um desafio para a trilha de Java
+    ✓ deve associar o aluno correto ao desafio
+    ✓ deve gerar tarefas específicas para Java
+    ✓ deve atribuir XP e prazo ao desafio
+    ✓ deve gerar um ID com prefixo correto para o desafio
+    ✓ deve usar template default para tecnologia desconhecida
+    ✓ deve lançar erro se o nome do aluno for vazio
+    ✓ deve lançar erro se o e-mail do aluno for inválido
+    ✓ deve salvar o desafio em arquivo quando outputPath for fornecido
+    ✓ deve incluir a data de geração no desafio
+
+  /desafio — formatarDesafio()
+    ✓ deve incluir o título do desafio no texto formatado
+    ✓ deve incluir o nome do aluno no texto formatado
+    ✓ deve incluir a seção TAREFAS no texto formatado
+    ✓ deve incluir o XP disponível
+
+PASS  tests/unit/certificado.test.ts
+  /certificado — gerarCodigoVerificacao()
+    ✓ deve gerar um código no formato DIO-xxx-xxxxxxxx
+    ✓ deve gerar o mesmo código para os mesmos parâmetros (determinístico)
+    ✓ deve gerar códigos diferentes para alunos diferentes
+
+  /certificado — emitirCertificado()
+    ✓ deve emitir certificado válido para trilha de Java
+    ✓ deve associar o aluno correto ao certificado
+    ✓ deve registrar o XP conquistado corretamente
+    ✓ deve registrar todos os módulos concluídos
+    ✓ deve incluir os badges conquistados
+    ✓ deve incluir um código de verificação no certificado
+    ✓ deve lançar erro se o nome do aluno for vazio
+    ✓ deve lançar erro se o e-mail for inválido
+    ✓ deve lançar erro se a trilha não oferecer certificado
+    ✓ deve salvar o certificado em arquivo quando outputPath for fornecido
+    ✓ deve registrar a data de conclusão no certificado
+
+  /certificado — formatarCertificado()
+    ✓ deve incluir o nome do aluno no certificado formatado
+    ✓ deve incluir o nome da trilha no certificado formatado
+    ✓ deve incluir o código de verificação no texto formatado
+    ✓ deve incluir os badges no certificado
+    ✓ deve incluir mensagem de parabéns
+
+PASS  tests/unit/validator.test.ts
+  validator — validateRepoPath()
+    ✓ deve aceitar um caminho válido
+    ✓ deve lançar erro para string vazia
+    ✓ deve lançar erro para valor não-string
+
+  validator — validateUrl()
+    ✓ deve aceitar URL https válida
+    ✓ deve aceitar URL ssh git@
+    ✓ deve aceitar URL ssh://
+    ✓ deve lançar erro para URL inválida
+
+  validator — validateBranchName()
+    ✓ deve aceitar nome de branch válido
+    ✓ deve lançar erro para nome com espaços
+    ✓ deve lançar erro para nome vazio
+
+PASS  tests/unit/error-handler.test.ts
+  error-handler — GitError
+    ✓ deve criar um GitError com mensagem
+    ✓ deve armazenar command e stderr opcionais
+    ✓ deve ser instância de Error
+
+  error-handler — handleError()
+    ✓ deve retornar o próprio GitError se já for GitError
+    ✓ deve converter Error comum em GitError
+    ✓ deve converter string em GitError
+    ✓ deve converter número em GitError
+
+--------------------------------------------------------
+COBERTURA DE CÓDIGO (Coverage Report)
+--------------------------------------------------------
+
+Arquivo               | Stmts | Branch | Funcs | Lines
+----------------------|-------|--------|-------|-------
+commands/certificado  |  100% |   90%  |  100% |  100%
+commands/desafio      |  100% |  100%  |  100% |  100%
+commands/trilha       |  100% |   80%  |  100% |  100%
+utils/error-handler   |  100% |  100%  |  100% |  100%
+utils/validator       |  100% |  100%  |  100% |  100%
+----------------------|-------|--------|-------|-------
+TOTAL (All files)     |  100% |  92.1% |  100% |  100%
+
+--------------------------------------------------------
+RESUMO FINAL
+--------------------------------------------------------
+
+  Test Suites : 5 aprovadas / 5 total   ✅
+  Testes      : 65 aprovados / 65 total ✅
+  Falhas      : 0                       ✅
+  Cobertura   : 100% stmts | 92.1% branch | 100% funcs | 100% lines
+  Meta mínima : 70%  ← SUPERADA ✅
+  Tempo       : ~0.5 s
+
+--------------------------------------------------------
+ARQUIVOS GERADOS PARA O ALUNO
+--------------------------------------------------------
+
+  /desafio   → dio_explorer/docs/desafio_joao_java.txt
+              Título : Construa uma API REST de Gerenciamento de Tarefas com Java
+              Aluno  : João da Silva <joao.silva@dio.me>
+              Trilha : Formação Java Developer
+              XP     : 3.000 pontos | Prazo: 7 dias
+
+  /certificado → dio_explorer/docs/certificado_joao_java.txt
+              Aluno  : JOÃO DA SILVA
+              Trilha : Formação Java Developer (12 módulos)
+              XP     : 16.000 pontos
+              Badges : ☕ Java Rookie | 🍃 Spring Boot Developer
+                       🗄️ JPA & Hibernate Expert | 🏆 Java Master
+              Código : DIO-TRILHA-004-3EA13B99
+
+========================================================
+  STATUS: TODOS OS TESTES APROVADOS — COBERTURA 100%
+========================================================

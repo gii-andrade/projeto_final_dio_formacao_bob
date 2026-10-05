@@ -1,0 +1,29 @@
+{
+  "name": "dio-explorer-mcp",
+  "version": "1.0.0",
+  "description": "Servidor MCP da DIO Explorer — expõe trilhas, desafios e certificados via stdio, HTTP e HTTPS",
+  "type": "module",
+  "main": "./build/index.js",
+  "bin": {
+    "dio-explorer-mcp": "./build/index.js"
+  },
+  "files": ["build"],
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "start": "node build/index.js",
+    "start:http": "MCP_TRANSPORT=http node build/index.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

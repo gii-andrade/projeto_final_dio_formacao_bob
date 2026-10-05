@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "dio-explorer": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/dio_explorer/mcp/build/index.js"
+      ],
+      "env": {
+        "DIO_DATA_PATH": "${workspaceFolder}/dio_explorer/data/trilhas_dio.json",
+        "DIO_OUTPUT_DIR": "${workspaceFolder}/dio_explorer/docs"
+      }
+    }
+  }
+}

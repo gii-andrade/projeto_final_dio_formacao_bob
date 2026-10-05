@@ -1,0 +1,34 @@
+************************************************************
+*                                                          *
+*                 CERTIFICADO DE CONCLUSÃO                 *
+*                  Digital Innovation One                  *
+*                                                          *
+************************************************************
+
+Certificamos que
+
+  👤 JOÃO DA SILVA
+  📧 joao.silva@dio.me
+
+concluiu com êxito a trilha:
+
+  📚 Formação Java Developer
+     Tecnologia : Java / Spring Boot / JPA / Hibernate / Maven
+     Nível      : Intermediário
+     Módulos    : 12
+     XP Total   : 16.000 pontos
+
+Badges conquistados:
+  • ☕ Java Rookie
+  • 🍃 Spring Boot Developer
+  • 🗄️ JPA & Hibernate Expert
+  • 🏆 Java Master
+
+Data de conclusão : 01/10/2026
+Código de verificação: DIO-TRILHA-004-3EA13B99
+
+************************************************************
+*                                                          *
+*          Parabéns! Continue evoluindo na DIO. 🚀         *
+*                                                          *
+************************************************************
