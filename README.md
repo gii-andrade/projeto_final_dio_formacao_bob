@@ -5,10 +5,11 @@
 
 ---
 
-## 📖 Documentação Completa
+## 📚 Navegação & Documentação
 
-Para visualizar todos os detalhes técnicos, arquitetura, catálogo de prompts, modos de transporte e lições aprendidas, acesse o documento principal:
-👉 **[Guia Completo do Projeto e Documentação](PROJETO_DOCUMENTACAO.md)**
+- 🗺️ **[Índice Visual do Projeto](INDICE_VISUAL_PROJETO.md)** — Mapa visual completo do repositório, diretórios e estatísticas.
+- 📖 **[Guia Completo do Projeto e Documentação Técnica](PROJETO_DOCUMENTACAO.md)** — Detalhes de arquitetura, MCP, catálogo de prompts e lições aprendidas.
+- ⚡ **[Guia de Comandos Slash](COMANDOS_SLASH.md)** — Referência rápida de uso dos comandos `/trilha`, `/desafio` e `/certificado`.
 
 ---
 
